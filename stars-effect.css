@@ -5,6 +5,12 @@ de o crédito a eles também, como o código deles pode não
 ser publico, não copie, remonte o código!
 */
 
+/* efeito ao selecionar texto */
+::selection {
+  background-color: #ff000056;
+  color: #ffffff;
+}
+
 /* configurando efeito hover ao passar o mouse nos links */
 .ovd-group2:hover {
     color: #ffffff8e;
