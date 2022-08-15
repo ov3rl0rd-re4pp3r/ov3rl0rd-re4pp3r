@@ -72,6 +72,16 @@ h1 {
   }
 }
 
+@media  only screen and (width: 1366) {
+ .ovd-group1 {
+    position: absolute;
+    top: 60vh;
+    left: 55vw;
+    text-decoration: none;
+    color: rgb(86, 86, 86);
+  }
+}
+
 /* configurando a tela para os pc's (ovd - groups) */
 @media only screen and (min-width: 900px) {
   /* grupo de link 1 */
