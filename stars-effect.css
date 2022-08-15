@@ -123,7 +123,7 @@ h1 {
 
   /* animação do txt */
   .typing-animation {
-    animation: blinkCursor 500ms steps(40) infinite normal, typing 4s steps(40) 1s normal both;
+    animation: blinkCursor 500ms steps(40) infinite normal, typing 3s steps(40) 1s normal both;
   }
   
   @keyframes typing {
@@ -131,7 +131,7 @@ h1 {
       width: 0px;
     }
     to {
-      width: 5.6em;
+      width: 5em;
     }
   }
 
