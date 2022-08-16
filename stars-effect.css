@@ -24,11 +24,6 @@ deles pode não ser publico, não copie, remonte o código!
   transform: scale(1.1);
 }
 
-/* configurando todas as areas menos o aside */
-section {
-    position: inline-block;
-}
-
 /* cor e sombra do h1 */
 h1 {
   color: rgb(255, 0, 0);
@@ -40,7 +35,7 @@ h1 {
   h1 {
     position: absolute;
     top: 43vh;
-    left: 39.5vw;
+    left: 40vw;
   }
 }
 
@@ -50,10 +45,10 @@ h1 {
   .ovd-typing-group {
     position: absolute;
     top: 45vh;
-    left: 20vw;
+    left: 22vw;
   }
 
-  /* grupo de link 1 */
+/* grupo de link 1 */
 .ovd-group1 {
     position: absolute;
     top: 60vh;
@@ -62,7 +57,7 @@ h1 {
     color: rgb(86, 86, 86);
   }
 
-  /* grupo de link 2 */
+/* grupo de link 2 */
   .ovd-group2 {
     position: absolute;
     top: 60vh;
@@ -70,6 +65,17 @@ h1 {
     text-decoration: none;
     color: rgb(86, 86, 86);
   }
+}
+
+/* posição tamanho altura atras e etc... (animação) */
+.animation-wrapper {
+  z-index: -1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  position: fixed;
+  height: 100%;
+  bottom: 0;
 }
 
 @media  only screen and (width: 1366) {
@@ -84,7 +90,7 @@ h1 {
 
 /* configurando a tela para os pc's (ovd - groups) */
 @media only screen and (min-width: 900px) {
-  /* grupo de link 1 */
+/* grupo de link 1 */
   .ovd-group1 {
     position: absolute;
     top: 60vh;
@@ -93,7 +99,7 @@ h1 {
     color: rgb(86, 86, 86);
   }
 
-  /* grupo de link 2 */
+/* grupo de link 2 */
   .ovd-group2 {
     position: absolute;
     top: 60vh;
@@ -104,7 +110,7 @@ h1 {
 }
 
 @media only screen and (max-width: 850px) {
-  /* animação do txt */
+/* animação do txt */
   .line {
     border-right: 2px solid rgba(255, 255, 255, .75);
     color: rgba(255, 255, 255, .75);
@@ -118,7 +124,7 @@ h1 {
 }
   
 @media only screen and (min-width: 900px) {
-  /* animação do txt */
+/* animação do txt */
   .line {
     border-right: 2px solid rgba(255, 255, 255, .75);
     color: rgba(255, 255, 255, .75);
@@ -131,7 +137,7 @@ h1 {
   }
 }
 
-  /* animação do txt */
+/* animação do txt */
   .typing-animation {
     animation: blinkCursor 500ms steps(40) infinite normal, typing 3s steps(40) 1s normal both;
   }
@@ -145,7 +151,7 @@ h1 {
     }
   }
 
-  /* animação da barra */
+/* animação da barra */
   @keyframes blinkCursor {
     from {
       border-right-color: rgba(255, 255, 255, .75);
@@ -155,17 +161,13 @@ h1 {
     }
   }
 
-/* familia das fontes */
-@import "";
-@import "";
-
-    /* cor do corpo e tempo da animação */
+/* cor do corpo e tempo da animação */
     body {
         background-color: #16161a;
         animation: fadeInDown 3s;
     }
 
-    /* aquela barrinha de scroll que vc mexe pra descer a tela */
+/* aquela barrinha de scroll que vc mexe pra descer a tela */
     ::-webkit-scrollbar, ::-webkit-scrollbar {
         width: 0;
         height: 0;
@@ -195,16 +197,6 @@ h1 {
 
 html, body {
     height: 100%;
-}
-
-.animation-wrapper {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    bottom: 0;
-    z-index: -1;
 }
 
 /* particula e particula depois */
