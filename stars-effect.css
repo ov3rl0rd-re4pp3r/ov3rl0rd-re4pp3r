@@ -35,12 +35,12 @@ h1 {
   h1 {
     position: absolute;
     top: 43vh;
-    left: 40vw;
+    left: 41vw;
   }
 }
 
 /* configurando a tela para os androids */
-@media only screen and (max-width: 850px) {
+@media only screen and (max-width: 999px) {
 
   .ovd-typing-group {
     position: absolute;
@@ -78,7 +78,7 @@ h1 {
   bottom: 0;
 }
 
-@media  only screen and (width: 1366) {
+@media  only screen and (min-width: 1366) {
  .ovd-group1 {
     position: absolute;
     top: 60vh;
@@ -109,7 +109,7 @@ h1 {
   }
 }
 
-@media only screen and (max-width: 850px) {
+@media only screen and (max-width: 899px) {
 /* animação do txt */
   .line {
     border-right: 2px solid rgba(255, 255, 255, .75);
